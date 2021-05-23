@@ -1,0 +1,6 @@
+● 5 notas e matéria de 2020;
+● 5 notas e matéria de 2021;
+● Soma as 10 notas entre si;
+● Compara qual é a maior; 
+● Depois vê se o GPA do aluno está ideal.
+Tem que usar for / while, IF, operadores de comparação e lógicos.

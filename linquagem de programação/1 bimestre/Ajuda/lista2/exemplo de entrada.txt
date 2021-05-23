@@ -1,0 +1,116 @@
+Funcionarios
+2
+A
+B
+-------------
+Produtos
+3
+Leite
+2,50
+10
+
+Tomate
+2,50
+5
+
+Alface
+10,00
+10
+-------------
+Pagamentos
+2
+A
+1500,00
+B
+1000,00
+-------------
+Vendas
+3
+A
+2,50
+3
+
+B
+10,00
+3
+
+A
+100,00
+2
+-------------
+ver pagamentos?
+sim 
+ver vendas ?
+sim
+
+-------------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||||||||
+                        OBJ 1
+|||||||||||||||||||||||||||||||||||||||||||||||||
+-------------------------------------------------
+
+2 
+Clara Julio
+10
+Leite 2,50 10
+Tomate 2,50 5
+Alface 10,00 10
+Agua 2,50 10
+Feijao 12,50 50
+File 20,00 10
+maca 2,50 10
+banana 2,50 5
+suco-de-laranja 10,00 10
+suco-de-uva 2,00 10
+
+2 
+Clara 600,00
+Julio 400,00
+
+10
+Clara 25,00 100
+Julio 2,50 3
+Julio 10,00 7
+Clara 2,50 2
+Julio 12,50 10
+Julio 20,00 2
+Clara 2,50 5
+Julio 2,50 1
+Julio 10,00 5
+Clara 2,00 8
+sim
+sim
+
+-------------------------------------------------
+|||||||||||||||||||||||||||||||||||||||||||||||||
+                        OBJ 2
+|||||||||||||||||||||||||||||||||||||||||||||||||
+-------------------------------------------------
+
+1
+Jonas
+2
+Camisa 80,00 10
+Blusa 120,00 5
+
+1
+Jonas 600
+
+3
+Jonas 80,00 5
+Jonas 120,00 2
+Jonas 80,00 1
+sim 
+sim
+
+
+Classe: Loja
+Atributos: Funcionarios (nome), produtos (valor, quantidade, nome), pagamentos (para quem, valor), venda (valor, quem vendeu, quantidade);
+metodos: set e get para funcionarios, pagamentos, produtos e venda; show(), PrintArr(), TotalDeGasto(), TotalDeLucro() e LucroFinal();
+
+Objetos: 
+    Teoria
+    Jonas, 10 unidades de Leite a 10,00, 600 para o Jonas, 9 unidades de leite a 10,00 feito por Jonas;
+    Entrada Pratica
+    Jonas, Leite 10,00 10, Jonas 600, Jonas 10,00 10
+    
