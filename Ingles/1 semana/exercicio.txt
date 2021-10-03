@@ -1,0 +1,84 @@
+1.
+    attachment (noun) - anexo
+    safety (noun) - segurança
+    feature (noun) - recurso/funcionalidade
+    craked (noun) - decifrou
+    wipe (noun) - limpar
+    options:
+        anexo
+        decifrou
+        segurança
+        apagar
+        recurso
+2.
+    Faça a relaçãp adequada das informações sibre o texto, exolejndo a opção que melhor acompanha cada frase
+    1. Número total dos mandamentos de segurança citados no texto - 10
+    2. Mandamentos que são citados recursos que ajudam a limpar informações do celular: Find My Phone
+    3. Mandamentos relacionados ao uso de senhas: 2,3
+    4. A regra de ouro para segurança online e a: 1
+    5. Mandamento relacionado a compras online: 8
+3. Observe as informações sobre os "do's and don'ts of online safety" e relacione com as informações que se complementam corforme o texto.
+    text = {
+        A maneira principal de criminosos infectarem o seu computador:
+
+        Ao conseguir acesso aos seus email, o criminoso pode:
+
+        Se perder o celular e não encontra-lo, ter um recurso que apague as suas informações remotamente pode:
+
+        A sua primeira linha de defesa é:
+    }
+
+    Complements = {
+        keep your devices locked with a password or a code.
+        by luring users to click on a link or open an attachment.
+        protect your information from falling info the wrong hands.
+        find a treasure trove of personal data.
+    }
+
+    Awansers = {
+        A maneira principal de criminosos infectarem o seu computador:
+        by luring users to click on a link or open an attachment.
+
+        Ao conseguir acesso aos seus email, o criminoso pode:
+        find a treasure trove of personal data.
+
+        Se perder o celular e não encontra-lo, ter um recurso que apague as suas informações remotamente pode:
+        protect your information from falling info the wrong hands.
+
+        A sua primeira linha de defesa é: 
+        keep your devices locked with a password or a code.
+
+    }
+4. Considerando o texto, marque somente as afitmativas CORRETAS 
+    [ X ] É recomendado o uso de recursos que apagam informações pessoais dos celuares, pois isso pode proteger seis dados caso perca o celular
+    [  ] São instruções para a segurança na internet, user senhas diferentes, fazer compras online, bloquear tablets e celulares.
+    [  ] Recomenda-se adquerir celulares que tenham a tela de bloqueio por meio de digital, dispensando assim o uso de senhas e código.
+    [ X ] Não devemos clicar em links não esperados, uma vez que podem ser convites para redes sociais duvidosas.
+    [ X ] criminosos podem traçar o perfiul de indivíduos por meio de redes sociais, observando interesses e postagens;
+5. O texto foi escrito em linguagem instrucional, isto é, ele deseja orientar, dar alertas e recomendações em relação a segurança online. Considerando isso, ele foi escrito no imperativo.
+
+Das frases a seguir, retiradas do texto, assinale aquela que não está no imperativo
+    () Never click on link you did not expect to receive
+    () Just say no to social media invitations from people you don't know
+    (X) Pop-ups can contain malicious software which can trick a use
+    () Never reuse your main email password
+    () Think before you tweet
+6. Para verificar se você entendeu a estrura do imperativo. Escolha a opção que melhor completa as frases com os verbos indicados entre parênteses.
+use letra maúscula inicial!
+1. ___ upstairs. (to go)
+2. ___ in this lake. (not/to swim)
+3. ___ your homework. (to do)
+4. ___ football in the yard. (not/to play)
+5. ___ him. (to help/se inlcuindo na ordem)
+6. ___ durning the lesson. (not/to talk - se incluindo na ordem)
+
+7. there's a little girl next to a swimming pool and she doesn't know how to swim.
+
+Das opções abaixo, escolha aquela que a mãe da menina que está dentro da casa não deveria dizer a ela.
+
+Escolha uma opção:
+    () Be careful!
+    () Go play in the pool!
+    () Don't go near the pool!
+    () Come here!
+    () Stay away from the pool!
