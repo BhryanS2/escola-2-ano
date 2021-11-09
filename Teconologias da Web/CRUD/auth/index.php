@@ -24,8 +24,6 @@
       $user = $result->fetch_assoc();
       unset($user['password']);
       unset($user['id']);
-      unset($user['admin']);
-      
     ?>
     <h1>Editar Usuário</h1>
     <form action="" method="post" class="z-depth-3">
@@ -45,25 +43,50 @@
           $placeholder = $key;
           $required = true;
           $id = $key;
-
-          if($key == 'birthdate') {
-            $value = date('d/m/Y', strtotime($value));
-            $type = 'date';
+          $isShow = true;
+          switch ($key) {
+            case 'birthdate':
+              $type = 'date';
+              break;
+            case 'email':
+                $type = 'email';
+                break;
+    
+            case 'avatar':
+                $type = 'url';
+                break;
+            case 'admin':
+                $isShow = false;
+                break;
+            default:
+              
+              break;
           }
-
-          if($key == 'email') {
-            $type = 'email';
-          }
-
-          if($key == 'avatar') {
-            $type = 'url';
-          }
-
+          
           $input = "<input type='$type' name='$name' required='$required' class='validate' value='$value'>";
           $label = "<label for='$id'>$placeholder</label>";
-          echo  "<div class='input-field'>$input$label</div>";
+          if ($isShow) echo  "<div class='input-field'>$input$label</div>";
         }
       ?>
+      <div class="ButtonsContainer">
+        <button class="btn blue waves-effect waves-light left-align" type="submit" name="button">Alterar
+          <i class="material-icons right">send</i>
+        </button>
+        <?php 
+        $isShow = true;
+        if($user['admin']) $isShow = false;
+        if($isShow) {
+          echo "
+          <a href='./admin.php'>
+            <button class='btn blue waves-effect waves-light left-align' type='button' name='button-Cad'>
+              Entrar na Administração
+              <i class='material-icons right'>arrow_forward</i>
+            </button>
+          </a>
+        ";
+        }
+        ?>
+      </div>
     </form>
   </main>
 </body>
