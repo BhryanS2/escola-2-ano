@@ -1,0 +1,10 @@
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ButtonContainer a {
+  color: #fff;
+}
