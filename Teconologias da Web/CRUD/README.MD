@@ -23,23 +23,22 @@ create database if not exists CRUD;
 use CRUD;
 
 -- Criação da tabela de usuários
-create table if not exists user (
+create table if not exists users (
   id integer not null primary key AUTO_INCREMENT,
-  nome varchar(255) not null,
-  email varchar(255) not null,
+  name varchar(255) not null,
   birthdate date not null,
-  password varchar(255) not null,
   Cpf varchar(14) not null,
-  avatar varchar(1000) not null
+  avatar varchar(1000) not null,
+  admin boolean not null
 );
 
-create table if not exists messages (
-  id integer primary key AUTO_INCREMENT,
-  usuario_id integer not null,
-  mensagem varchar(255) not null,
-  data_hora datetime not null
+create table if not exists users_login (
+  id integer not null primary key AUTO_INCREMENT,
+  user_id integer not null,
+  email varchar(255) not null,
+  password varchar(255) not null,
+  CONSTRAINT users_login_id foreign key (user_id) references users(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
-
 ```
 
 - Depois de criar o banco de dados, clique em "Executar".
