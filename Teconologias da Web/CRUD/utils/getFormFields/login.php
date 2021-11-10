@@ -14,7 +14,7 @@
     return;
   }
 
-  $sql_insert = "SELECT * FROM users Where email = '$email'";
+  $sql_insert = "SELECT * FROM users_login WHERE email = '$email'";
   $result = mysqli_query($db, $sql_insert);
   $row = mysqli_fetch_array($result);
   // save user in session
@@ -28,13 +28,14 @@
     </div>";
     return;
   }
-  $passowrdDb = $row['password'];
-  if (password_verify($passwordField, $passowrdDb)) {
+  $passowrdDb = base64_decode($row['password']);
+
+  if ($passwordField == $passowrdDb) {
     if (session_status() !== PHP_SESSION_ACTIVE) {
       session_start();
     }
 
-    $id = $row['id'];
+    $id = $row['user_id'];
     
     header("Location: ../../auth/index.php?id=$id");
     return;

@@ -6,10 +6,7 @@
     }
     
     public function encodePassword($password) {
-      $options = [
-        'cost' => 12,
-      ];
-      $hash = password_hash($password, PASSWORD_BCRYPT, $options);
+      $hash = base64_encode($password);
       return $hash;
     }
 

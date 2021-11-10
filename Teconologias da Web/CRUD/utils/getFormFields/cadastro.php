@@ -25,21 +25,27 @@
     echo "<h1>CPF inválido</h1>";
     return;
   } 
-  $sql_insertArray = array(
+  $sql_insert_users = array(
     "name" => $Name,
-    "email" => $email,
     "birthdate" => $birthDate,
-    "password" => $PasswordEncode,
     "Cpf" => $Cpf,
     "avatar" => $Avatar,
     "admin" => $isAdmin
   );
-  $res = insert("users", $sql_insertArray, $db);
-  if ($res) {
+  $res1 = insert("users", $sql_insert_users, $db);
+  // pegar o id do usuário inserido
+  $id = mysqli_insert_id($db);
+  $sql_insert_users_login = array(
+    "email" => $email,
+    "password" => $PasswordEncode,
+    "user_id" => $id
+  );
+  $res2 = insert("users_login", $sql_insert_users_login, $db);
+  if ($res1 && $res2) {
     echo "
     <div>
-      <h1>$res</h1>
-      <a href='../../Cadastro.php'>Voltar</a>
+      <h1>$res1</h1>
+      <a href='../../cadastro.php'>Voltar</a>
     </div>
     ";
   } else {
