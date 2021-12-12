@@ -2,6 +2,7 @@
 package view;
 
 import java.awt.*;
+import java.awt.event.*;
 import java.util.*;
 
 import javax.swing.*;
@@ -11,16 +12,40 @@ public class index {
   private Map<Integer, String> data = new HashMap<Integer, String>();
   private String[] columnNames = { "Nome do Produto", "Descrição do Produto", "Data de Cadastro", "Quantidade",
       "Preço" };
-  private JFrame frame;
+  JFrame frame;
   private JTextField txtName;
   private JTextField txtRegister;
   private JTextField txtDescription;
   private JTextField txtAmount;
   private JTextField txtValue;
   private JButton btnRegister, btnUpdate, btnDelete;
-  private JPanel painelFundo;
-  private JTable tabela;
+  private JPanel panelBG;
+  private JTable table;
   private JScrollPane barraRolagem;
+  private Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+  private Integer width = (int) screenSize.getWidth();
+  private Integer height = (int) screenSize.getHeight();
+  private int widthElement = 351;
+  private int WIDTH = (width / 2) - (widthElement / 2);
+  private int HEIGHT = 25;
+  private int POSITION = 30;
+  private int COLUMNS = 10;
+  private int BUTTON_WIDTH = 150;
+  private int BUTTON_WIDTH_Center = (width / 3);
+  private int ESPACE_BUTTON = BUTTON_WIDTH_Center + BUTTON_WIDTH + 50;
+  private JLabel lblName = new JLabel("Nome do Produto");
+  private JLabel lblDescription = new JLabel("Descrição do Produto");
+  private JLabel lblRegister = new JLabel("Data de Cadastro");
+  private JLabel lblAmount = new JLabel("Quantidade");
+  private JLabel lblValue = new JLabel("Preço");
+  private Color white = new Color(255, 255, 255);
+  private Color background = new Color(242, 243, 244);
+  private Color text = new Color(102, 102, 102);
+  private Color textHighlight = new Color(179, 185, 255);
+  private Color red = new Color(232, 63, 91);
+  private Color green = new Color(76, 214, 43);
+  private Color blue = new Color(89, 101, 224);
+  private Color blueDark = new Color(73, 83, 184);
 
   /**
    * Launch the application.
@@ -58,23 +83,7 @@ public class index {
   /**
    * Initialize the contents of the frame.
    */
-  private void initialize() {
-    Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-    Integer width = (int) screenSize.getWidth();
-    Integer height = (int) screenSize.getHeight();
-    int widthElement = 351;
-    int WIDTH = (width / 2) - (widthElement / 2);
-    int HEIGHT = 25;
-    int POSITION = 30;
-    int COLUMNS = 10;
-    int BUTTON_WIDTH = 150;
-    int BUTTON_WIDTH_Center = (width / 3);
-    int ESPACE_BUTTON = BUTTON_WIDTH_Center + BUTTON_WIDTH + 50;
-    JLabel lblName = new JLabel("Nome do Produto");
-    JLabel lblDescription = new JLabel("Descrição do Produto");
-    JLabel lblRegister = new JLabel("Data de Cadastro");
-    JLabel lblAmount = new JLabel("Quantidade");
-    JLabel lblValue = new JLabel("Preço");
+  private void definePositionComponents() {
 
     btnRegister = new JButton("Cadastrar");
     btnUpdate = new JButton("Atualizar");
@@ -114,67 +123,267 @@ public class index {
     txtDescription.setColumns(COLUMNS);
     txtAmount.setColumns(COLUMNS);
     txtValue.setColumns(COLUMNS);
+  }
+
+  private void defineStyleComponents() {
+    // colors and fonts
+    frame.getContentPane().setBackground(background);
+    lblName.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    lblDescription.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    lblRegister.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    lblAmount.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    lblValue.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    txtName.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    txtRegister.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    txtDescription.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    txtAmount.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    txtValue.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    btnRegister.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    btnUpdate.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    btnDelete.setFont(new Font("Tahoma", Font.PLAIN, 14));
+
+    // colors
+    lblName.setForeground(text);
+    lblDescription.setForeground(text);
+    lblRegister.setForeground(text);
+    lblAmount.setForeground(text);
+    lblValue.setForeground(text);
+    txtName.setForeground(text);
+    txtRegister.setForeground(text);
+    txtDescription.setForeground(text);
+    txtAmount.setForeground(text);
+    txtValue.setForeground(text);
+    btnRegister.setForeground(text);
+    btnUpdate.setForeground(text);
+    btnDelete.setForeground(text);
+
+    // text with highlight
+    txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+    txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+    txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+    txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+    txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+    // buttons colors
+    btnDelete.setBackground(red);
+    btnDelete.setForeground(white);
+    btnRegister.setBackground(green);
+    btnRegister.setForeground(white);
+    btnUpdate.setBackground(blueDark);
+    btnUpdate.setForeground(white);
+    // remove borders buttons
+    btnDelete.setBorder(null);
+    btnRegister.setBorder(null);
+    btnUpdate.setBorder(null);
+  }
+
+  private void Listeners() {
+    // Color text when wirete focus
+    txtName.addFocusListener((FocusListener) new FocusListener() {
+      @Override
+      public void focusGained(FocusEvent e) {
+        txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+      }
+
+      @Override
+      public void focusLost(FocusEvent e) {
+        txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        String name = txtName.getText();
+        if (name.equals("")) {
+          txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+        }
+      }
+    });
+
+    txtRegister.addFocusListener((FocusListener) new FocusListener() {
+      @Override
+      public void focusGained(FocusEvent e) {
+        txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+      }
+
+      @Override
+      public void focusLost(FocusEvent e) {
+        txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        String register = txtRegister.getText();
+        if (register.equals("")) {
+          txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+        }
+      }
+    });
+
+    txtDescription.addFocusListener((FocusListener) new FocusListener() {
+      @Override
+      public void focusGained(FocusEvent e) {
+        txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+      }
+
+      @Override
+      public void focusLost(FocusEvent e) {
+        txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        String description = txtDescription.getText();
+        if (description.equals("")) {
+          txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+        }
+      }
+    });
+
+    txtAmount.addFocusListener((FocusListener) new FocusListener() {
+      @Override
+      public void focusGained(FocusEvent e) {
+        txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+      }
+
+      @Override
+      public void focusLost(FocusEvent e) {
+        txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        String amount = txtAmount.getText();
+        if (amount.equals("")) {
+          txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+        }
+      }
+    });
+
+    txtValue.addFocusListener((FocusListener) new FocusListener() {
+      @Override
+      public void focusGained(FocusEvent e) {
+        txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+      }
+
+      @Override
+      public void focusLost(FocusEvent e) {
+        txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        String value = txtValue.getText();
+        if (value.equals("")) {
+          txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+        }
+      }
+    });
+    // add listener in txtAmount and value
+    txtAmount.addKeyListener(new KeyAdapter() {
+      @Override
+      public void keyReleased(KeyEvent e) {
+        String value = txtAmount.getText();
+        // regex to remove all not numbers and dots
+        String regex = "[^0-9.]";
+        if (value.equals(""))
+          txtAmount.setText("");
+        else
+          txtAmount.setText(value.replaceAll(regex, ""));
+      }
+    });
+
+    txtValue.addKeyListener(new KeyAdapter() {
+      @Override
+      public void keyReleased(KeyEvent e) {
+        String value = txtValue.getText();
+        // regex to remove all not numbers and dots
+        String regex = "[^0-9.]";
+        if (value.equals(""))
+          txtValue.setText("");
+        else
+          txtValue.setText(value.replaceAll(regex, ""));
+      }
+    });
+
+  }
+
+  private void initialize() {
+    definePositionComponents();
+    Listeners();
+    defineStyleComponents();
     Container contentFrame = frame.getContentPane();
     contentFrame.setLayout(null);
-    contentFrame.add(lblAmount);
-    contentFrame.add(txtName);
-    contentFrame.add(txtRegister);
-    contentFrame.add(txtDescription);
-    contentFrame.add(txtAmount);
-    contentFrame.add(btnRegister);
-    contentFrame.add(btnUpdate);
-    contentFrame.add(btnDelete);
-    contentFrame.add(lblName);
-    contentFrame.add(lblRegister);
-    contentFrame.add(lblDescription);
-    contentFrame.add(lblValue);
-    contentFrame.add(txtValue);
+    Object[] components = { lblName, txtName, lblRegister, txtRegister, lblDescription, txtDescription, lblAmount,
+        txtAmount, lblValue, txtValue, btnRegister, btnUpdate, btnDelete };
+    for (Object component : components) {
+      contentFrame.add((Component) component);
+    }
 
-    painelFundo = new JPanel();
-    painelFundo.setLayout(new GridLayout(1, 1));
-    // transform map in Object[][]
+    panelBG = new JPanel();
+    panelBG.setLayout(new GridLayout(1, 1));
 
-    tabela = new JTable(new DefaultTableModel(new Object[][] {}, columnNames));
-    barraRolagem = new JScrollPane(tabela);
-    painelFundo.add(barraRolagem);
+    table = new JTable(new DefaultTableModel(new Object[][] {}, columnNames));
+    // table colors and fonts
+    table.setBackground(Color.WHITE);
+    table.setFont(new Font("Tahoma", Font.PLAIN, 14));
+    table.setRowHeight(30);
+    table.setRowMargin(5);
+    table.setRowSelectionAllowed(true);
+    table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    table.setShowGrid(false);
+    table.setSelectionBackground(background);
+    table.setSelectionForeground(blue);
 
-    painelFundo.setVisible(true);
-    painelFundo.setBounds(WIDTH - 60, POSITION * 13, 500, 120);
+    barraRolagem = new JScrollPane(table);
+    panelBG.add(barraRolagem);
 
-    contentFrame.add(painelFundo);
+    panelBG.setVisible(true);
+    panelBG.setBounds((width / 4), POSITION * 13, width / 2, 300);
+
+    contentFrame.add(panelBG);
 
     // buttons actions
     btnRegister.addActionListener(e -> {
-      String result = this.resgister();
+      String result = "";
+      boolean isValidFields = true;
+      isValidFields = ValidateFields();
+      if (!isValidFields) {
+        JOptionPane.showMessageDialog(null, "Preencha todos os campos");
+        return;
+      }
+      result = this.resgister();
       result = result.length() > 0 ? result : "Erro ao registrar";
       showTable();
       JOptionPane.showMessageDialog(null, result);
     });
 
     btnUpdate.addActionListener(e -> {
-      String result = this.update();
+      String result = "";
+      boolean isValidFields = true;
+      isValidFields = ValidateFields();
+      if (!isValidFields) {
+        JOptionPane.showMessageDialog(null, "Preencha todos os campos");
+        return;
+      }
+      result = this.update();
       result = result.length() > 0 ? result : "Erro ao fazer update";
       showTable();
       JOptionPane.showMessageDialog(null, result);
     });
 
     btnDelete.addActionListener(e -> {
-      String result = this.Delete();
+      String result = "";
+      boolean isValidFields = true;
+      isValidFields = ValidateFields();
+      if (!isValidFields) {
+        JOptionPane.showMessageDialog(null, "Preencha todos os campos");
+        return;
+      }
+      result = this.Delete();
       result = result.length() > 0 ? result : "Erro ao deletar";
       showTable();
       JOptionPane.showMessageDialog(null, result);
     });
   }
 
+  private boolean ValidateFields() {
+    if (txtName.getText().equals("")
+        || txtRegister.getText().equals("")
+        || txtDescription.getText().equals("")
+        || txtAmount.getText().equals("")
+        || txtValue.getText().equals("")) {
+      return false;
+    }
+    return true;
+  }
+
   private void showTable() {
-    DefaultTableModel model = (DefaultTableModel) tabela.getModel();
+    DefaultTableModel model = (DefaultTableModel) table.getModel();
     model.setDataVector(new Object[][] {}, columnNames);
-    tabela.setModel(model);
+    table.setModel(model);
     // transform data in Object[][]
     Object[][] objData = new Object[data.size()][columnNames.length];
     for (int i = 0; i < data.size(); i++) {
       String values = data.get(i);
-      System.out.println(values);
       if (values != null) {
         String[] valuesSplit = values.split(";");
         for (int j = 0; j < valuesSplit.length; j++) {
@@ -183,7 +392,7 @@ public class index {
       }
     }
     model.setDataVector(objData, columnNames);
-    tabela.setModel(model);
+    table.setModel(model);
   }
 
   private Object[] products() {
@@ -195,25 +404,6 @@ public class index {
     Object[] product = { name, description, register, amount, value };
     return product;
   };
-
-  private String resgister() {
-    String result = "";
-    Object[] product = products();
-    Boolean res = indexOf(product);
-    if (res) {
-      result = "Produto já cadastrado";
-      return result;
-    }
-    // add product in matriz string
-    String productString = "";
-    for (int i = 0; i < product.length; i++) {
-      productString += product[i] + ";";
-    }
-    System.out.println(productString);
-    data.put(data.size(), productString);
-    result = "Produto cadastrado com sucesso";
-    return result;
-  }
 
   private Boolean indexOf(Object[] product) {
     Boolean res = false;
@@ -228,34 +418,6 @@ public class index {
     return res;
   }
 
-  private String update() {
-    String result = "";
-    Object[] product = products();
-    for (Object p : product) {
-      if (p.equals("")) {
-        result = "Preencha todos os campos";
-        break;
-      }
-    }
-    if (!result.equals("")) {
-      return result;
-    }
-    Boolean res = indexOf(product);
-    if (!res) {
-      result = "Produto não cadastrado";
-      return result;
-    }
-    String name = product[0].toString();
-    int index = findProduct(name) + 1;
-    String oldValue = data.get(index);
-    String newValue = product[0] + ";" + product[1] + ";" + product[2] + ";" + product[3] + ";" + product[4];
-    System.out.println("Velho " + oldValue);
-    System.out.println("Novo " + newValue);
-    data.replace(index, oldValue, newValue);
-    result = "Produto atualizado com sucesso";
-    return result;
-  }
-
   private int findProduct(String register) {
     int index = 0;
     int left = 0;
@@ -263,10 +425,11 @@ public class index {
     while (left <= right) {
       int mid = (left + right) / 2;
       String[] values = data.get(mid).split(";");
-      if (values[2].equals(register)) {
+      String name = values[0];
+      if (name.equals(register)) {
         index = mid;
         break;
-      } else if (values[2].compareTo(register) < 0) {
+      } else if (name.compareTo(register) < 0) {
         left = mid + 1;
       } else {
         right = mid - 1;
@@ -275,23 +438,75 @@ public class index {
     return index;
   }
 
-  private String Delete() {
+  private String resgister() {
     String result = "";
     Object[] product = products();
-    for (Object p : product) {
-      if (p.equals("")) {
-        result = "Preencha todos os campos";
-        break;
-      }
-    }
-    if (!result.equals("")) {
+    Boolean res = indexOf(product);
+    if (res) {
+      result = "Produto já cadastrado";
       return result;
     }
-    Boolean res = indexOf(product);
-    if (!res) {
+    // add product in matriz string
+    String productString = "";
+    for (int i = 0; i < product.length; i++) {
+      productString += product[i] + ";";
+    }
+    int row = table.getSelectedRow();
+    if (row == -1) {
+      data.put(data.size(), productString);
+    } else {
+      data.put(row, productString);
+    }
+    result = "Produto cadastrado com sucesso";
+    return result;
+  }
+
+  private String update() {
+    String result = "";
+    Object[] product = products();
+    String newValue = product[0] + ";" + product[1] + ";" + product[2] + ";" + product[3] + ";" + product[4];
+    String nameNew = product[0].toString();
+    int row = table.getSelectedRow();
+
+    if (row != -1) {
+      String oldValue = data.get(row);
+      String nameOld = oldValue.split(";")[0];
+      if (!nameOld.equals(nameNew)) {
+        result = "Não é possível alterar o nome do produto";
+        return result;
+      }
+      data.put(row, newValue);
+      return result;
+    }
+    // Not line selected
+
+    Boolean exists = indexOf(product);
+    if (!exists) {
       result = "Produto não cadastrado";
       return result;
     }
+
+    int index = findProduct(nameNew);
+    data.replace(index, newValue);
+    result = "Produto atualizado com sucesso";
+    return result;
+  }
+
+  private String Delete() {
+    String result = "";
+    Object[] product = products();
+    Boolean exists = indexOf(product);
+    if (!exists) {
+      result = "Produto não cadastrado";
+      return result;
+    }
+    int row = table.getSelectedRow();
+    if (row != -1) {
+      data.remove(row);
+      result = "Produto deletado com sucesso";
+      return result;
+    }
+    // Not line selected
     String name = product[0].toString();
     int index = findProduct(name);
     data.remove(index);
