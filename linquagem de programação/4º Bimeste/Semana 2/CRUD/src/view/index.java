@@ -158,11 +158,11 @@ public class index {
     btnDelete.setForeground(text);
 
     // text with highlight
-    txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
-    txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
-    txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
-    txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
-    txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+    txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
+    txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
+    txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
+    txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
+    txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
     // buttons colors
     btnDelete.setBackground(red);
     btnDelete.setForeground(white);
@@ -181,15 +181,15 @@ public class index {
     txtName.addFocusListener((FocusListener) new FocusListener() {
       @Override
       public void focusGained(FocusEvent e) {
-        txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+        txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
       }
 
       @Override
       public void focusLost(FocusEvent e) {
-        txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, green));
         String name = txtName.getText();
         if (name.equals("")) {
-          txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+          txtName.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, red));
         }
       }
     });
@@ -197,15 +197,15 @@ public class index {
     txtRegister.addFocusListener((FocusListener) new FocusListener() {
       @Override
       public void focusGained(FocusEvent e) {
-        txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+        txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
       }
 
       @Override
       public void focusLost(FocusEvent e) {
-        txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, green));
         String register = txtRegister.getText();
         if (register.equals("")) {
-          txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+          txtRegister.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, red));
         }
       }
     });
@@ -213,15 +213,15 @@ public class index {
     txtDescription.addFocusListener((FocusListener) new FocusListener() {
       @Override
       public void focusGained(FocusEvent e) {
-        txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+        txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
       }
 
       @Override
       public void focusLost(FocusEvent e) {
-        txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, green));
         String description = txtDescription.getText();
         if (description.equals("")) {
-          txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+          txtDescription.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, red));
         }
       }
     });
@@ -229,15 +229,15 @@ public class index {
     txtAmount.addFocusListener((FocusListener) new FocusListener() {
       @Override
       public void focusGained(FocusEvent e) {
-        txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+        txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
       }
 
       @Override
       public void focusLost(FocusEvent e) {
-        txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, green));
         String amount = txtAmount.getText();
         if (amount.equals("")) {
-          txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+          txtAmount.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, red));
         }
       }
     });
@@ -245,15 +245,15 @@ public class index {
     txtValue.addFocusListener((FocusListener) new FocusListener() {
       @Override
       public void focusGained(FocusEvent e) {
-        txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, textHighlight));
+        txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, textHighlight));
       }
 
       @Override
       public void focusLost(FocusEvent e) {
-        txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, green));
+        txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, green));
         String value = txtValue.getText();
         if (value.equals("")) {
-          txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 1, 0, red));
+          txtValue.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, red));
         }
       }
     });
@@ -281,6 +281,28 @@ public class index {
           txtValue.setText("");
         else
           txtValue.setText(value.replaceAll(regex, ""));
+      }
+    });
+
+    txtRegister.addKeyListener(new KeyAdapter() {
+      @Override
+      public void keyReleased(KeyEvent e) {
+        String date = txtRegister.getText();
+        String numbers = date.replaceAll("[^0-9]", "");
+        String regex2 = "^([0-9]{2})([0-9])";
+        String regex3 = "^([0-9]{2})([0-9]{2})([0-9])";
+        String dateFormated = "";
+        if (numbers.length() <= 4) {
+          dateFormated = numbers.replaceAll(regex2, "$1/$2");
+        } else {
+          dateFormated = numbers.replaceAll(regex3, "$1/$2/$3");
+        }
+        if (dateFormated.length() <= 10) {
+          txtRegister.setText(dateFormated);
+          return;
+        }
+        txtRegister.setText(dateFormated.substring(0, 10));
+        return;
       }
     });
 
@@ -408,11 +430,13 @@ public class index {
   private Boolean indexOf(Object[] product) {
     Boolean res = false;
     for (int i = 0; i < data.size(); i++) {
-      String[] values = data.get(i).split(";");
-      String name = values[0];
-      if (name.equals(product[0])) {
-        res = true;
-        break;
+      if (data.containsKey(i)) {
+        String[] values = data.get(i).split(";");
+        String name = values[0];
+        if (name.equals(product[0])) {
+          res = true;
+          return res;
+        }
       }
     }
     return res;
@@ -504,13 +528,14 @@ public class index {
     if (row != -1) {
       data.remove(row);
       result = "Produto deletado com sucesso";
-      return result;
+    } else {
+      // Not line selected
+      String name = product[0].toString();
+      int index = findProduct(name);
+      data.remove(index);
+      result = "Produto removido com sucesso";
     }
-    // Not line selected
-    String name = product[0].toString();
-    int index = findProduct(name);
-    data.remove(index);
-    result = "Produto removido com sucesso";
+
     return result;
   }
 }
