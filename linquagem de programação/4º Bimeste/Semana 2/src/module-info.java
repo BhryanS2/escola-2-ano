@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author bhryan
- *
- */
-module view {
-}
