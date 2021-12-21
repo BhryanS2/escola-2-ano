@@ -1,0 +1,2579 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="C" producer="main_bin" version="7.3.0" root="/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Nova Pasta">
+ <profile frame_rate_num="60" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 60 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
+ <producer id="producer0" in="00:00:00.000" out="00:00:27.683">
+  <property name="length">1662</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_10.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:file_size">2443184</property>
+  <property name="kdenlive:file_hash">c6982c77f78032c45e7edd4d2b3d7123</property>
+  <property name="kdenlive:audio_max0">88</property>
+ </producer>
+ <producer id="producer1" in="00:00:00.000" out="00:00:13.983">
+  <property name="length">840</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_11.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:file_size">1234844</property>
+  <property name="kdenlive:file_hash">ea6529427f87fa85b8e0c6c820890476</property>
+  <property name="kdenlive:audio_max0">77</property>
+ </producer>
+ <producer id="producer2" in="00:00:00.000" out="00:00:15.483">
+  <property name="length">930</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_12.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">4</property>
+  <property name="kdenlive:file_size">1367144</property>
+  <property name="kdenlive:file_hash">30c34b1fb55cf5d5fc07955e7333372c</property>
+  <property name="kdenlive:audio_max0">76</property>
+ </producer>
+ <producer id="producer3" in="00:00:00.000" out="00:00:12.583">
+  <property name="length">756</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_13.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:file_size">1111364</property>
+  <property name="kdenlive:file_hash">f1855d5209dcdc77a0c7ea60cceaaa0f</property>
+  <property name="kdenlive:audio_max0">61</property>
+ </producer>
+ <producer id="producer4" in="00:00:00.000" out="00:00:08.083">
+  <property name="length">486</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_14.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">6</property>
+  <property name="kdenlive:file_size">714464</property>
+  <property name="kdenlive:file_hash">035d42a94fa79c102086322a4df680d4</property>
+  <property name="kdenlive:audio_max0">71</property>
+ </producer>
+ <producer id="producer5" in="00:00:00.000" out="00:00:07.083">
+  <property name="length">426</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_15.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:file_size">626264</property>
+  <property name="kdenlive:file_hash">c16365c22c4616b2bc40ea35a7043542</property>
+  <property name="kdenlive:audio_max0">60</property>
+ </producer>
+ <producer id="producer6" in="00:00:00.000" out="00:00:08.783">
+  <property name="length">528</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_16.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">8</property>
+  <property name="kdenlive:file_size">776204</property>
+  <property name="kdenlive:file_hash">ba0cb297c6ee04d5c2aa950a1ffede65</property>
+  <property name="kdenlive:audio_max0">62</property>
+ </producer>
+ <producer id="producer7" in="00:00:00.000" out="00:00:18.083">
+  <property name="length">1086</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_17.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">9</property>
+  <property name="kdenlive:file_size">1596464</property>
+  <property name="kdenlive:file_hash">f562412c4f05df0d5d7e2dad43498a1e</property>
+  <property name="kdenlive:audio_max0">73</property>
+ </producer>
+ <producer id="producer8" in="00:00:00.000" out="00:00:20.783">
+  <property name="length">1248</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_20.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:file_size">1834604</property>
+  <property name="kdenlive:file_hash">87376e6f9faefa09997142aed9efc34a</property>
+  <property name="kdenlive:audio_max0">68</property>
+ </producer>
+ <producer id="producer9" in="00:00:00.000" out="00:00:19.583">
+  <property name="length">1176</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_21.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:file_size">1728764</property>
+  <property name="kdenlive:file_hash">82e31c429ea82c1b9708acfccf18f694</property>
+  <property name="kdenlive:audio_max0">62</property>
+ </producer>
+ <producer id="producer10" in="00:00:00.000" out="00:00:15.083">
+  <property name="length">906</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_23.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">12</property>
+  <property name="kdenlive:file_size">1331864</property>
+  <property name="kdenlive:file_hash">2878ff47818089278c179ec15d58a15c</property>
+  <property name="kdenlive:audio_max0">77</property>
+ </producer>
+ <producer id="producer11" in="00:00:00.000" out="00:00:10.683">
+  <property name="length">642</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_25.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">13</property>
+  <property name="kdenlive:file_size">943784</property>
+  <property name="kdenlive:file_hash">f311e66e300378b5413043597cc70193</property>
+  <property name="kdenlive:audio_max0">81</property>
+ </producer>
+ <producer id="producer12" in="00:00:00.000" out="00:00:14.383">
+  <property name="length">864</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_26.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">14</property>
+  <property name="kdenlive:file_size">1270124</property>
+  <property name="kdenlive:file_hash">6470542a44597fd0ccfa76cf91eb4253</property>
+  <property name="kdenlive:audio_max0">78</property>
+ </producer>
+ <producer id="producer13" in="00:00:00.000" out="00:00:18.583">
+  <property name="length">1116</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_27.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">15</property>
+  <property name="kdenlive:file_size">1640564</property>
+  <property name="kdenlive:file_hash">125879567e474cadeb2157cc13b842ea</property>
+  <property name="kdenlive:audio_max0">74</property>
+ </producer>
+ <producer id="producer14" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/1.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">106</property>
+  <property name="kdenlive:id">16</property>
+  <property name="kdenlive:file_size">277721</property>
+  <property name="kdenlive:file_hash">6720bb7ae062f5dd92daf76c2d267298</property>
+ </producer>
+ <producer id="producer15" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/2.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">106</property>
+  <property name="kdenlive:id">17</property>
+  <property name="kdenlive:file_size">213944</property>
+  <property name="kdenlive:file_hash">1e8ad56624c6188b876db4eedb4e205a</property>
+ </producer>
+ <producer id="producer16" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/Buttons.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1572</property>
+  <property name="meta.media.height">1452</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">18</property>
+  <property name="kdenlive:file_size">371114</property>
+  <property name="kdenlive:file_hash">88c4935a75c040491e998389254332d9</property>
+ </producer>
+ <producer id="producer17" in="00:00:00.000" out="00:00:07.167">
+  <property name="length">431</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/class.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">688</property>
+  <property name="meta.media.height">332</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">19</property>
+  <property name="kdenlive:file_size">47578</property>
+  <property name="kdenlive:file_hash">28b936b527914eda3c1d85df607760f0</property>
+ </producer>
+ <producer id="producer18" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/clearFields.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">836</property>
+  <property name="meta.media.height">652</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">20</property>
+  <property name="kdenlive:file_size">122218</property>
+  <property name="kdenlive:file_hash">962b80ede13e25240225acacb63f527a</property>
+ </producer>
+ <producer id="producer22" in="00:00:00.000" out="00:00:08.650">
+  <property name="length">520</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/constantes.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">2328</property>
+  <property name="meta.media.height">1812</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">21</property>
+  <property name="kdenlive:file_size">772396</property>
+  <property name="kdenlive:file_hash">7243082d8d8770fb6abb695982b00973</property>
+ </producer>
+ <producer id="producer21" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/definePositionComponents.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">2088</property>
+  <property name="meta.media.height">1972</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">22</property>
+  <property name="kdenlive:file_size">697602</property>
+  <property name="kdenlive:file_hash">e3a3c23271d5f2a3f2afd0c6fdbabb25</property>
+ </producer>
+ <producer id="producer19" in="00:00:00.000" out="00:00:08.250">
+  <property name="length">496</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/delete.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1554</property>
+  <property name="meta.media.height">852</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">23</property>
+  <property name="kdenlive:file_size">194038</property>
+  <property name="kdenlive:file_hash">8a5eeea61258cb3f16cc931b06007627</property>
+ </producer>
+ <producer id="producer20" in="00:00:00.000" out="00:00:10.317">
+  <property name="length">620</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/deleteButton.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1408</property>
+  <property name="meta.media.height">612</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">24</property>
+  <property name="kdenlive:file_size">141934</property>
+  <property name="kdenlive:file_hash">0c3aa0866d50a295f33a3fd01d81918c</property>
+ </producer>
+ <producer id="producer24" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/Foco.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1830</property>
+  <property name="meta.media.height">932</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:file_size">259689</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">25</property>
+  <property name="kdenlive:file_hash">67abf031dda1a3c96503ed31eee5326f</property>
+ </producer>
+ <producer id="producer23" in="00:00:00.000" out="00:00:07.917">
+  <property name="length">476</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/import.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1094</property>
+  <property name="meta.media.height">612</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">26</property>
+  <property name="kdenlive:file_size">114259</property>
+  <property name="kdenlive:file_hash">ee5638bf482690ef425e3648df82e036</property>
+ </producer>
+ <producer id="producer25" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/initialize.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">688</property>
+  <property name="meta.media.height">332</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">27</property>
+  <property name="kdenlive:file_size">47768</property>
+  <property name="kdenlive:file_hash">fc1a45407cf48af89263b0519f7604b7</property>
+ </producer>
+ <producer id="producer27" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/initializeComplete.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">2402</property>
+  <property name="meta.media.height">3172</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">28</property>
+  <property name="kdenlive:file_size">998951</property>
+  <property name="kdenlive:file_hash">f8b0bb3c5351f47bec90097d44c55ab4</property>
+ </producer>
+ <producer id="producer31" in="00:00:00.000" out="00:00:19.583">
+  <property name="length">1176</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/listeners.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">2012</property>
+  <property name="meta.media.height">5612</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">29</property>
+  <property name="kdenlive:file_size">1718569</property>
+  <property name="kdenlive:file_hash">55d8cd92cac1141521f10a64e3d5a739</property>
+ </producer>
+ <producer id="producer26" in="00:00:00.000" out="00:00:18.083">
+  <property name="length">1086</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/main.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1110</property>
+  <property name="meta.media.height">812</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">30</property>
+  <property name="kdenlive:file_size">160166</property>
+  <property name="kdenlive:file_hash">163ded0f1b38379b951ed9f7efdefcef</property>
+ </producer>
+ <producer id="producer28" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/products.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1572</property>
+  <property name="meta.media.height">732</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">31</property>
+  <property name="kdenlive:file_size">190267</property>
+  <property name="kdenlive:file_hash">4d0ee66848a6b868d82b8a10ddce7a7e</property>
+ </producer>
+ <producer id="producer29" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/regex.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1424</property>
+  <property name="meta.media.height">1212</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">32</property>
+  <property name="kdenlive:file_size">319461</property>
+  <property name="kdenlive:file_hash">3c98b7a54cae0bc29c8df01aca19fa24</property>
+ </producer>
+ <producer id="producer30" in="00:00:00.000" out="00:00:10.683">
+  <property name="length">642</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/register.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1516</property>
+  <property name="meta.media.height">692</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">33</property>
+  <property name="kdenlive:file_size">160925</property>
+  <property name="kdenlive:file_hash">ed9053cbd0673349d36a9e0e1fc44dcc</property>
+ </producer>
+ <producer id="producer32" in="00:00:00.000" out="00:00:14.850">
+  <property name="length">892</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/registerButton.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1572</property>
+  <property name="meta.media.height">852</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">34</property>
+  <property name="kdenlive:file_size">218221</property>
+  <property name="kdenlive:file_hash">406212af38a734b6298462b3294e840c</property>
+ </producer>
+ <producer id="producer33" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/stylecomponents.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1922</property>
+  <property name="meta.media.height">2452</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">35</property>
+  <property name="kdenlive:file_size">919459</property>
+  <property name="kdenlive:file_hash">d685af229266f802dd21f167496a821b</property>
+ </producer>
+ <producer id="producer35" in="00:00:00.000" out="00:00:40.383">
+  <property name="length">2424</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/super.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">2366</property>
+  <property name="meta.media.height">3412</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">36</property>
+  <property name="kdenlive:file_size">1022853</property>
+  <property name="kdenlive:file_hash">a39a892ba150551a96a1d7d6e5702414</property>
+ </producer>
+ <producer id="producer34" in="00:00:00.000" out="00:00:07.650">
+  <property name="length">460</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/update.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1128</property>
+  <property name="meta.media.height">972</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">37</property>
+  <property name="kdenlive:file_size">185715</property>
+  <property name="kdenlive:file_hash">096420fe165e706ecd7eaecc3dddd3a5</property>
+ </producer>
+ <producer id="producer36" in="00:00:00.000" out="00:00:06.717">
+  <property name="length">404</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/updateButton.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1150</property>
+  <property name="meta.media.height">572</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">38</property>
+  <property name="kdenlive:file_size">120100</property>
+  <property name="kdenlive:file_hash">659d8c02b7975833ff9d3b53b6ff5c98</property>
+ </producer>
+ <producer id="producer37" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o código/Validate.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1128</property>
+  <property name="meta.media.height">772</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:id">39</property>
+  <property name="kdenlive:file_size">160881</property>
+  <property name="kdenlive:file_hash">1b0bf8e6d1805775a28964938ed035aa</property>
+ </producer>
+ <producer id="producer38" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p1.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">40</property>
+  <property name="kdenlive:file_size">30084</property>
+  <property name="kdenlive:file_hash">f190b3cd6dff8bd4b69b30b3bf342cfd</property>
+ </producer>
+ <producer id="producer39" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p10.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">41</property>
+  <property name="kdenlive:file_size">41588</property>
+  <property name="kdenlive:file_hash">959712b9e31a624c27c3deeb50e55ef9</property>
+ </producer>
+ <producer id="producer40" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p11.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:file_size">41588</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">42</property>
+  <property name="kdenlive:file_hash">8b3e1e9d4bc7e31317ca3cae5f94f6d8</property>
+ </producer>
+ <producer id="producer41" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p12.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:file_size">48931</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">43</property>
+  <property name="kdenlive:file_hash">1ecbdc2bd8e6cab924fa6ef709394bfc</property>
+ </producer>
+ <producer id="producer42" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p13.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">44</property>
+  <property name="kdenlive:file_size">40588</property>
+  <property name="kdenlive:file_hash">9a9bb468c32909e561bf6b140a5cb2b9</property>
+ </producer>
+ <producer id="producer43" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p14.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">45</property>
+  <property name="kdenlive:file_size">49869</property>
+  <property name="kdenlive:file_hash">bbfc6204d646ddb26c0e96784d85803b</property>
+ </producer>
+ <producer id="producer45" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p15.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">46</property>
+  <property name="kdenlive:file_size">43511</property>
+  <property name="kdenlive:file_hash">51ad3806333bf7c831b653153fe9a167</property>
+ </producer>
+ <producer id="producer44" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p16.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">47</property>
+  <property name="kdenlive:file_size">48973</property>
+  <property name="kdenlive:file_hash">7bba1c6a0a1b1e2133bbe3a7343382fd</property>
+ </producer>
+ <producer id="producer46" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p17.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">48</property>
+  <property name="kdenlive:file_size">52197</property>
+  <property name="kdenlive:file_hash">3d5ff4e55019f0be88914559a8ecd8db</property>
+ </producer>
+ <producer id="producer47" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p18.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">49</property>
+  <property name="kdenlive:file_size">50035</property>
+  <property name="kdenlive:file_hash">c58a5298206b338c1bfeead907ffaba5</property>
+ </producer>
+ <producer id="producer48" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p19.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">50</property>
+  <property name="kdenlive:file_size">63456</property>
+  <property name="kdenlive:file_hash">51cdb723e60e8ee65ca3febebf0390b6</property>
+ </producer>
+ <producer id="producer49" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p2.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">51</property>
+  <property name="kdenlive:file_size">30995</property>
+  <property name="kdenlive:file_hash">81adf6353c56c4cd0a4ff9817d1fcfdf</property>
+ </producer>
+ <producer id="producer50" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p20.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">52</property>
+  <property name="kdenlive:file_size">53389</property>
+  <property name="kdenlive:file_hash">e86f4a102c0b498b01103a57b59b887e</property>
+ </producer>
+ <producer id="producer51" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p21.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">53</property>
+  <property name="kdenlive:file_size">65437</property>
+  <property name="kdenlive:file_hash">9b3b6d6475d82a98ed5b8ce9a0085727</property>
+ </producer>
+ <producer id="producer52" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p22.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">54</property>
+  <property name="kdenlive:file_size">61466</property>
+  <property name="kdenlive:file_hash">df3d9d3cf1168f119d3e9d8bdb6cfd7d</property>
+ </producer>
+ <producer id="producer53" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p23.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">55</property>
+  <property name="kdenlive:file_size">62145</property>
+  <property name="kdenlive:file_hash">21fc2b1ec73d31838cf1767db5023844</property>
+ </producer>
+ <producer id="producer54" in="00:00:00.000" out="00:00:09.833">
+  <property name="length">591</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p24.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">56</property>
+  <property name="kdenlive:file_size">66395</property>
+  <property name="kdenlive:file_hash">6b0d1ecfd3aa87ff12c18847ec68c251</property>
+ </producer>
+ <producer id="producer55" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p25.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">57</property>
+  <property name="kdenlive:file_size">71085</property>
+  <property name="kdenlive:file_hash">44f22201f85496472d858f5b98a07534</property>
+ </producer>
+ <producer id="producer56" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p26.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">58</property>
+  <property name="kdenlive:file_size">61712</property>
+  <property name="kdenlive:file_hash">9ce722d890ef5c76998b96303720e31c</property>
+ </producer>
+ <producer id="producer57" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p27.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">59</property>
+  <property name="kdenlive:file_size">70354</property>
+  <property name="kdenlive:file_hash">635cfe13c2300d544008fac83c36c977</property>
+ </producer>
+ <producer id="producer58" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p28.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">60</property>
+  <property name="kdenlive:file_size">69767</property>
+  <property name="kdenlive:file_hash">d6918b3f89acdfe4b3fa7a362e418ff8</property>
+ </producer>
+ <producer id="producer59" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p29.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">61</property>
+  <property name="kdenlive:file_size">66777</property>
+  <property name="kdenlive:file_hash">48bd84e45a0ce1b6ba910d7830c6c352</property>
+ </producer>
+ <producer id="producer60" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p3.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">62</property>
+  <property name="kdenlive:file_size">31879</property>
+  <property name="kdenlive:file_hash">62418592e17543d58e8e39e5859dd7db</property>
+ </producer>
+ <producer id="producer61" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p30.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">63</property>
+  <property name="kdenlive:file_size">66815</property>
+  <property name="kdenlive:file_hash">a94793f7beeb45c2abf29220a51c9c57</property>
+ </producer>
+ <producer id="producer62" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p31.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">64</property>
+  <property name="kdenlive:file_size">70693</property>
+  <property name="kdenlive:file_hash">910cae371c59263e2ab53e2b92b41377</property>
+ </producer>
+ <producer id="producer63" in="00:00:00.000" out="00:00:06.800">
+  <property name="length">409</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p32.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">65</property>
+  <property name="kdenlive:file_size">61920</property>
+  <property name="kdenlive:file_hash">06646da73ce07de6ae09a42c260c7cd8</property>
+ </producer>
+ <producer id="producer64" in="00:00:00.000" out="00:00:05.167">
+  <property name="length">311</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p33.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">66</property>
+  <property name="kdenlive:file_size">63973</property>
+  <property name="kdenlive:file_hash">e1c67559efff499e1a0f14f448c203d5</property>
+ </producer>
+ <producer id="producer65" in="00:00:00.000" out="00:00:05.333">
+  <property name="length">321</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p34.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">67</property>
+  <property name="kdenlive:file_size">60465</property>
+  <property name="kdenlive:file_hash">7771eb45fc2b64a512e9d805e290e644</property>
+ </producer>
+ <producer id="producer66" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p35.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">68</property>
+  <property name="kdenlive:file_size">60809</property>
+  <property name="kdenlive:file_hash">76253aa3a7c29e8d335d1e72c9f5964f</property>
+ </producer>
+ <producer id="producer67" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p36.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">69</property>
+  <property name="kdenlive:file_size">57049</property>
+  <property name="kdenlive:file_hash">7b0366b7b9ecd6bf3281706da02d256f</property>
+ </producer>
+ <producer id="producer68" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p4.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:file_size">34065</property>
+  <property name="kdenlive:id">70</property>
+  <property name="kdenlive:file_hash">11a83068b947e97c7f0395865132c969</property>
+ </producer>
+ <producer id="producer69" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p5.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">71</property>
+  <property name="kdenlive:file_size">34472</property>
+  <property name="kdenlive:file_hash">852420832cb51b4f98e51383897a112f</property>
+ </producer>
+ <producer id="producer70" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p6.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">72</property>
+  <property name="kdenlive:file_size">43241</property>
+  <property name="kdenlive:file_hash">0dbd36a3e0f8e9da4dca0e62ef77d117</property>
+ </producer>
+ <producer id="producer71" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p7.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">73</property>
+  <property name="kdenlive:file_size">32956</property>
+  <property name="kdenlive:file_hash">2bddfc42047e40b4b1b399a4aaed76d5</property>
+ </producer>
+ <producer id="producer72" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p8.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">74</property>
+  <property name="kdenlive:file_size">38671</property>
+  <property name="kdenlive:file_hash">5a6a2443d4afe3f6e98f7df279aea418</property>
+ </producer>
+ <producer id="producer73" in="00:00:00.000" out="00:00:04.983">
+  <property name="length">00:00:05.000</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/p9.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.000</property>
+  <property name="kdenlive:folderid">134</property>
+  <property name="kdenlive:id">75</property>
+  <property name="kdenlive:file_size">36820</property>
+  <property name="kdenlive:file_hash">f67ab17daf907f4c4d47e0f97ff53ee2</property>
+ </producer>
+ <producer id="producer75" in="00:00:00.000" out="00:00:23.283">
+  <property name="length">1398</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/tela.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">900</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">66346</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">134</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="kdenlive:id">76</property>
+  <property name="kdenlive:file_size">202531</property>
+  <property name="kdenlive:file_hash">3a943c9fc66ce419e92fe99bc3a07f2b</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer id="producer74" in="00:00:00.000" out="00:00:23.000">
+  <property name="length">1381</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/tela.webm</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">900</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">vp8</property>
+  <property name="meta.media.0.codec.long_name">On2 VP8</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.title.markup">Video</property>
+  <property name="meta.attr.encoder.markup">GStreamer matroskamux version 1.16.2</property>
+  <property name="meta.attr.creation_time.markup">2021-12-16T13:49:02.000000Z</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">134</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="kdenlive:id">77</property>
+  <property name="kdenlive:file_size">425879</property>
+  <property name="kdenlive:file_hash">1e5372d59ab1ea68659d0919e9ee0773</property>
+ </producer>
+ <producer id="producer76" in="00:00:00.000" out="00:15:05.267">
+  <property name="length">54317</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Downloads/é madrugada e você está ouvindo lofi para dormir - downloaded from my phone.mp3</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">mp3float</property>
+  <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+  <property name="meta.media.0.codec.bit_rate">220926</property>
+  <property name="meta.attr.0.stream.encoder.markup">Lavc58.35</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">-nan</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.width">512</property>
+  <property name="meta.media.1.codec.height">288</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.pix_fmt">rgb24</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">601</property>
+  <property name="meta.media.1.codec.name">png</property>
+  <property name="meta.media.1.codec.long_name">PNG (Portable Network Graphics) image</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.title.markup">Album cover</property>
+  <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+  <property name="meta.attr.composer.markup">ac_fBOTkeME</property>
+  <property name="meta.attr.title.markup">é madrugada e você está ouvindo lofi para dormir</property>
+  <property name="meta.attr.artist.markup">SoulWAY</property>
+  <property name="meta.attr.encoder.markup">Lavf58.20.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">109</property>
+  <property name="kdenlive:file_size">25203994</property>
+  <property name="meta.media.frame_rate_num">90000</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">512</property>
+  <property name="meta.media.height">288</property>
+  <property name="meta.media.color_range">full</property>
+  <property name="kdenlive:id">78</property>
+  <property name="kdenlive:file_hash">4283ac6ffeff3b4a5d28b85e6f26a07c</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:audio_max0">254</property>
+ </producer>
+ <playlist id="main_bin">
+  <property name="kdenlive:folder.-1.86">4º Bimeste</property>
+  <property name="kdenlive:folder.-1.134">Mostrando o resultado</property>
+  <property name="kdenlive:folder.86.87">Audios</property>
+  <property name="kdenlive:folder.86.102">Semana 2</property>
+  <property name="kdenlive:folder.86.106">video</property>
+  <property name="kdenlive:folder.102.103">CRUD</property>
+  <property name="kdenlive:folder.106.109">Mostrando o código</property>
+  <property name="kdenlive:folder.103.104">bin</property>
+  <property name="kdenlive:folder.103.105">src</property>
+  <property name="kdenlive:docproperties.activeTrack">3</property>
+  <property name="kdenlive:docproperties.audioChannels">2</property>
+  <property name="kdenlive:docproperties.audioTarget">-1</property>
+  <property name="kdenlive:docproperties.disablepreview">0</property>
+  <property name="kdenlive:docproperties.documentid">1639767081742</property>
+  <property name="kdenlive:docproperties.enableTimelineZone">0</property>
+  <property name="kdenlive:docproperties.enableexternalproxy">0</property>
+  <property name="kdenlive:docproperties.enableproxy">0</property>
+  <property name="kdenlive:docproperties.externalproxyparams"/>
+  <property name="kdenlive:docproperties.generateimageproxy">0</property>
+  <property name="kdenlive:docproperties.generateproxy">0</property>
+  <property name="kdenlive:docproperties.groups">[
+]
+</property>
+  <property name="kdenlive:docproperties.kdenliveversion">21.12.0</property>
+  <property name="kdenlive:docproperties.position">2812</property>
+  <property name="kdenlive:docproperties.previewextension"/>
+  <property name="kdenlive:docproperties.previewparameters"/>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_60</property>
+  <property name="kdenlive:docproperties.proxyextension"/>
+  <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
+  <property name="kdenlive:docproperties.proxyimagesize">800</property>
+  <property name="kdenlive:docproperties.proxyminsize">1000</property>
+  <property name="kdenlive:docproperties.proxyparams"/>
+  <property name="kdenlive:docproperties.proxyresize">640</property>
+  <property name="kdenlive:docproperties.renderaudioquality">192</property>
+  <property name="kdenlive:docproperties.rendercategory">Ultra-High Definition (4K)</property>
+  <property name="kdenlive:docproperties.renderendguide">-1</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderfield">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">MP4-H265 (HEVC)</property>
+  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">540</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">960</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderstartguide">-1</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">cachefiles/Video.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">0</property>
+  <property name="kdenlive:docproperties.scrollPos">0</property>
+  <property name="kdenlive:docproperties.seekOffset">30000</property>
+  <property name="kdenlive:docproperties.storagefolder">cachefiles/1639767081742</property>
+  <property name="kdenlive:docproperties.version">1.04</property>
+  <property name="kdenlive:docproperties.verticalzoom">1</property>
+  <property name="kdenlive:docproperties.videoTarget">-1</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">75</property>
+  <property name="kdenlive:docproperties.zoom">11</property>
+  <property name="kdenlive:expandedFolders">86;102;106;109</property>
+  <property name="kdenlive:documentnotes"/>
+  <property name="xml_retain">1</property>
+  <entry producer="producer0" in="00:00:00.000" out="00:00:27.683"/>
+  <entry producer="producer1" in="00:00:00.000" out="00:00:13.983"/>
+  <entry producer="producer2" in="00:00:00.000" out="00:00:15.483"/>
+  <entry producer="producer3" in="00:00:00.000" out="00:00:12.583"/>
+  <entry producer="producer4" in="00:00:00.000" out="00:00:08.083"/>
+  <entry producer="producer5" in="00:00:00.000" out="00:00:07.083"/>
+  <entry producer="producer6" in="00:00:00.000" out="00:00:08.783"/>
+  <entry producer="producer7" in="00:00:00.000" out="00:00:18.083"/>
+  <entry producer="producer8" in="00:00:00.000" out="00:00:20.783"/>
+  <entry producer="producer9" in="00:00:00.000" out="00:00:19.583"/>
+  <entry producer="producer10" in="00:00:00.000" out="00:00:15.083"/>
+  <entry producer="producer11" in="00:00:00.000" out="00:00:10.683"/>
+  <entry producer="producer12" in="00:00:00.000" out="00:00:14.383"/>
+  <entry producer="producer13" in="00:00:00.000" out="00:00:18.583"/>
+  <entry producer="producer14" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer15" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer16" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer17" in="00:00:00.000" out="00:00:07.167"/>
+  <entry producer="producer18" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer22" in="00:00:00.000" out="00:00:08.650"/>
+  <entry producer="producer21" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer19" in="00:00:00.000" out="00:00:08.250"/>
+  <entry producer="producer20" in="00:00:00.000" out="00:00:10.317"/>
+  <entry producer="producer24" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer23" in="00:00:00.000" out="00:00:07.917"/>
+  <entry producer="producer25" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer27" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer31" in="00:00:00.000" out="00:00:19.583"/>
+  <entry producer="producer26" in="00:00:00.000" out="00:00:18.083"/>
+  <entry producer="producer28" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer29" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer30" in="00:00:00.000" out="00:00:10.683"/>
+  <entry producer="producer32" in="00:00:00.000" out="00:00:14.850"/>
+  <entry producer="producer33" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer35" in="00:00:00.000" out="00:00:40.383"/>
+  <entry producer="producer34" in="00:00:00.000" out="00:00:07.650"/>
+  <entry producer="producer36" in="00:00:00.000" out="00:00:06.717"/>
+  <entry producer="producer37" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer38" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer39" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer40" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer41" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer42" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer43" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer45" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer44" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer46" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer47" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer48" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer49" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer50" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer51" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer52" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer53" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer54" in="00:00:00.000" out="00:00:09.833"/>
+  <entry producer="producer55" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer56" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer57" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer58" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer59" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer60" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer61" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer62" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer63" in="00:00:00.000" out="00:00:06.800"/>
+  <entry producer="producer64" in="00:00:00.000" out="00:00:05.167"/>
+  <entry producer="producer65" in="00:00:00.000" out="00:00:05.333"/>
+  <entry producer="producer66" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer67" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer68" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer69" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer70" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer71" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer72" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer73" in="00:00:00.000" out="00:00:04.983"/>
+  <entry producer="producer75" in="00:00:00.000" out="00:00:23.283"/>
+  <entry producer="producer74" in="00:00:00.000" out="00:00:23.000"/>
+  <entry producer="producer76" in="00:00:00.000" out="00:15:05.267"/>
+ </playlist>
+ <producer id="black_track" in="00:00:00.000" out="00:11:56.100">
+  <property name="length">2147483647</property>
+  <property name="eof">continue</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">color</property>
+  <property name="mlt_image_format">rgb24a</property>
+  <property name="set.test_audio">0</property>
+ </producer>
+ <playlist id="playlist0">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <playlist id="playlist1">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <tractor id="tractor0" in="00:00:00.000">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="video" producer="playlist0"/>
+  <track hide="video" producer="playlist1"/>
+  <filter id="filter0">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="level">24</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter1">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter2">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <producer id="producer77" in="00:00:00.000" out="00:00:27.683">
+  <property name="length">1662</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_10.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:file_size">2443184</property>
+  <property name="kdenlive:file_hash">c6982c77f78032c45e7edd4d2b3d7123</property>
+  <property name="kdenlive:audio_max0">88</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer78" in="00:00:00.000" out="00:00:13.983">
+  <property name="length">840</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_11.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">3</property>
+  <property name="kdenlive:file_size">1234844</property>
+  <property name="kdenlive:file_hash">ea6529427f87fa85b8e0c6c820890476</property>
+  <property name="kdenlive:audio_max0">77</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer79" in="00:00:00.000" out="00:00:15.483">
+  <property name="length">930</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_12.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">4</property>
+  <property name="kdenlive:file_size">1367144</property>
+  <property name="kdenlive:file_hash">30c34b1fb55cf5d5fc07955e7333372c</property>
+  <property name="kdenlive:audio_max0">76</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer80" in="00:00:00.000" out="00:00:12.583">
+  <property name="length">756</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_13.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">5</property>
+  <property name="kdenlive:file_size">1111364</property>
+  <property name="kdenlive:file_hash">f1855d5209dcdc77a0c7ea60cceaaa0f</property>
+  <property name="kdenlive:audio_max0">61</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer81" in="00:00:00.000" out="00:00:08.083">
+  <property name="length">486</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_14.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">6</property>
+  <property name="kdenlive:file_size">714464</property>
+  <property name="kdenlive:file_hash">035d42a94fa79c102086322a4df680d4</property>
+  <property name="kdenlive:audio_max0">71</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer82" in="00:00:00.000" out="00:00:07.083">
+  <property name="length">426</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_15.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">7</property>
+  <property name="kdenlive:file_size">626264</property>
+  <property name="kdenlive:file_hash">c16365c22c4616b2bc40ea35a7043542</property>
+  <property name="kdenlive:audio_max0">60</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer83" in="00:00:00.000" out="00:00:08.783">
+  <property name="length">528</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_16.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">8</property>
+  <property name="kdenlive:file_size">776204</property>
+  <property name="kdenlive:file_hash">ba0cb297c6ee04d5c2aa950a1ffede65</property>
+  <property name="kdenlive:audio_max0">62</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer84" in="00:00:00.000" out="00:00:18.083">
+  <property name="length">1086</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_17.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">9</property>
+  <property name="kdenlive:file_size">1596464</property>
+  <property name="kdenlive:file_hash">f562412c4f05df0d5d7e2dad43498a1e</property>
+  <property name="kdenlive:audio_max0">73</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer85" in="00:00:00.000" out="00:00:20.783">
+  <property name="length">1248</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_20.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">10</property>
+  <property name="kdenlive:file_size">1834604</property>
+  <property name="kdenlive:file_hash">87376e6f9faefa09997142aed9efc34a</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer86" in="00:00:00.000" out="00:00:19.583">
+  <property name="length">1176</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_21.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">11</property>
+  <property name="kdenlive:file_size">1728764</property>
+  <property name="kdenlive:file_hash">82e31c429ea82c1b9708acfccf18f694</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer87" in="00:00:00.000" out="00:00:15.083">
+  <property name="length">906</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_23.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">12</property>
+  <property name="kdenlive:file_size">1331864</property>
+  <property name="kdenlive:file_hash">2878ff47818089278c179ec15d58a15c</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer88" in="00:00:00.000" out="00:00:10.683">
+  <property name="length">642</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_25.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">13</property>
+  <property name="kdenlive:file_size">943784</property>
+  <property name="kdenlive:file_hash">f311e66e300378b5413043597cc70193</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer89" in="00:00:00.000" out="00:00:14.383">
+  <property name="length">864</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_26.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">14</property>
+  <property name="kdenlive:file_size">1270124</property>
+  <property name="kdenlive:file_hash">6470542a44597fd0ccfa76cf91eb4253</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <producer id="producer90" in="00:00:00.000" out="00:00:18.583">
+  <property name="length">1116</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/Audios/Recording_27.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">1</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">705600</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">87</property>
+  <property name="kdenlive:id">15</property>
+  <property name="kdenlive:file_size">1640564</property>
+  <property name="kdenlive:file_hash">125879567e474cadeb2157cc13b842ea</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
+ <playlist id="playlist2">
+  <property name="kdenlive:audio_track">1</property>
+  <entry producer="producer77" in="00:00:00.000" out="00:00:27.683">
+   <property name="kdenlive:id">2</property>
+  </entry>
+  <entry producer="producer78" in="00:00:00.000" out="00:00:13.983">
+   <property name="kdenlive:id">3</property>
+  </entry>
+  <entry producer="producer79" in="00:00:00.000" out="00:00:15.483">
+   <property name="kdenlive:id">4</property>
+  </entry>
+  <entry producer="producer80" in="00:00:00.000" out="00:00:12.583">
+   <property name="kdenlive:id">5</property>
+  </entry>
+  <entry producer="producer81" in="00:00:00.000" out="00:00:08.083">
+   <property name="kdenlive:id">6</property>
+  </entry>
+  <entry producer="producer82" in="00:00:00.000" out="00:00:07.083">
+   <property name="kdenlive:id">7</property>
+  </entry>
+  <entry producer="producer83" in="00:00:00.000" out="00:00:08.783">
+   <property name="kdenlive:id">8</property>
+  </entry>
+  <entry producer="producer84" in="00:00:00.000" out="00:00:18.083">
+   <property name="kdenlive:id">9</property>
+  </entry>
+  <entry producer="producer85" in="00:00:00.000" out="00:00:20.783">
+   <property name="kdenlive:id">10</property>
+  </entry>
+  <entry producer="producer86" in="00:00:00.000" out="00:00:19.583">
+   <property name="kdenlive:id">11</property>
+  </entry>
+  <entry producer="producer87" in="00:00:00.000" out="00:00:15.083">
+   <property name="kdenlive:id">12</property>
+  </entry>
+  <entry producer="producer88" in="00:00:00.000" out="00:00:10.683">
+   <property name="kdenlive:id">13</property>
+  </entry>
+  <entry producer="producer89" in="00:00:00.000" out="00:00:14.383">
+   <property name="kdenlive:id">14</property>
+  </entry>
+  <entry producer="producer90" in="00:00:00.000" out="00:00:18.583">
+   <property name="kdenlive:id">15</property>
+  </entry>
+ </playlist>
+ <playlist id="playlist3">
+  <property name="kdenlive:audio_track">1</property>
+ </playlist>
+ <tractor id="tractor1" in="00:00:00.000" out="00:03:31.083">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="video" producer="playlist2"/>
+  <track hide="video" producer="playlist3"/>
+  <filter id="filter3">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="level">24</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter4">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter5">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <producer id="producer91" in="00:00:00.000" out="00:00:10.117">
+  <property name="length">608</property>
+  <property name="eof">pause</property>
+  <property name="resource">2.300000:/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/tela.mp4</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1600</property>
+  <property name="meta.media.0.codec.height">900</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">66346</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">2.3</property>
+  <property name="warp_resource">/home/bhryan/Escola/escola-2-ano/linquagem de programação/4º Bimeste/video/Mostrando o resultado/tela.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+  <property name="kdenlive:id">76</property>
+  <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">2</property>
+  <property name="meta.media.width">1600</property>
+  <property name="meta.media.height">900</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist4">
+  <entry producer="producer14" in="00:00:00.000" out="00:00:04.983">
+   <property name="kdenlive:id">16</property>
+  </entry>
+  <entry producer="producer38" in="00:00:00.000" out="00:00:03.483">
+   <property name="kdenlive:id">40</property>
+  </entry>
+  <entry producer="producer49" in="00:00:00.000" out="00:00:01.300">
+   <property name="kdenlive:id">51</property>
+  </entry>
+  <entry producer="producer60" in="00:00:00.000" out="00:00:01.117">
+   <property name="kdenlive:id">62</property>
+  </entry>
+  <entry producer="producer68" in="00:00:00.000" out="00:00:01.517">
+   <property name="kdenlive:id">70</property>
+  </entry>
+  <entry producer="producer69" in="00:00:00.000" out="00:00:01.883">
+   <property name="kdenlive:id">71</property>
+  </entry>
+  <entry producer="producer70" in="00:00:00.000" out="00:00:04.983">
+   <property name="kdenlive:id">72</property>
+  </entry>
+  <entry producer="producer71" in="00:00:00.000" out="00:00:00.667">
+   <property name="kdenlive:id">73</property>
+  </entry>
+  <entry producer="producer72" in="00:00:00.000" out="00:00:00.567">
+   <property name="kdenlive:id">74</property>
+  </entry>
+  <entry producer="producer73" in="00:00:00.000" out="00:00:00.517">
+   <property name="kdenlive:id">75</property>
+  </entry>
+  <entry producer="producer39" in="00:00:00.000" out="00:00:00.483">
+   <property name="kdenlive:id">41</property>
+  </entry>
+  <entry producer="producer40" in="00:00:00.000" out="00:00:00.450">
+   <property name="kdenlive:id">42</property>
+  </entry>
+  <entry producer="producer41" in="00:00:00.000" out="00:00:00.400">
+   <property name="kdenlive:id">43</property>
+  </entry>
+  <entry producer="producer42" in="00:00:00.000" out="00:00:00.467">
+   <property name="kdenlive:id">44</property>
+  </entry>
+  <entry producer="producer43" in="00:00:00.000" out="00:00:00.583">
+   <property name="kdenlive:id">45</property>
+  </entry>
+  <entry producer="producer45" in="00:00:00.000" out="00:00:00.650">
+   <property name="kdenlive:id">46</property>
+  </entry>
+  <entry producer="producer44" in="00:00:00.000" out="00:00:00.550">
+   <property name="kdenlive:id">47</property>
+  </entry>
+  <entry producer="producer46" in="00:00:00.000" out="00:00:00.550">
+   <property name="kdenlive:id">48</property>
+  </entry>
+  <entry producer="producer47" in="00:00:00.000" out="00:00:00.700">
+   <property name="kdenlive:id">49</property>
+  </entry>
+  <entry producer="producer48" in="00:00:00.000" out="00:00:00.667">
+   <property name="kdenlive:id">50</property>
+  </entry>
+  <entry producer="producer50" in="00:00:00.000" out="00:00:00.700">
+   <property name="kdenlive:id">52</property>
+  </entry>
+  <entry producer="producer51" in="00:00:00.000" out="00:00:00.750">
+   <property name="kdenlive:id">53</property>
+  </entry>
+  <entry producer="producer52" in="00:00:00.000" out="00:00:00.800">
+   <property name="kdenlive:id">54</property>
+  </entry>
+  <entry producer="producer53" in="00:00:00.000" out="00:00:00.850">
+   <property name="kdenlive:id">55</property>
+  </entry>
+  <entry producer="producer54" in="00:00:00.000" out="00:00:09.783">
+   <property name="kdenlive:id">56</property>
+  </entry>
+  <entry producer="producer55" in="00:00:00.000" out="00:00:00.850">
+   <property name="kdenlive:id">57</property>
+  </entry>
+  <entry producer="producer56" in="00:00:00.000" out="00:00:00.717">
+   <property name="kdenlive:id">58</property>
+  </entry>
+  <entry producer="producer57" in="00:00:00.000" out="00:00:00.667">
+   <property name="kdenlive:id">59</property>
+  </entry>
+  <entry producer="producer58" in="00:00:00.000" out="00:00:00.767">
+   <property name="kdenlive:id">60</property>
+  </entry>
+  <entry producer="producer59" in="00:00:00.000" out="00:00:00.683">
+   <property name="kdenlive:id">61</property>
+  </entry>
+  <entry producer="producer61" in="00:00:00.000" out="00:00:00.733">
+   <property name="kdenlive:id">63</property>
+  </entry>
+  <entry producer="producer62" in="00:00:00.000" out="00:00:00.850">
+   <property name="kdenlive:id">64</property>
+  </entry>
+  <entry producer="producer63" in="00:00:00.000" out="00:00:06.800">
+   <property name="kdenlive:id">65</property>
+  </entry>
+  <entry producer="producer64" in="00:00:00.000" out="00:00:03.917">
+   <property name="kdenlive:id">66</property>
+  </entry>
+  <entry producer="producer65" in="00:00:00.000" out="00:00:01.233">
+   <property name="kdenlive:id">67</property>
+  </entry>
+  <entry producer="producer66" in="00:00:00.000" out="00:00:01.267">
+   <property name="kdenlive:id">68</property>
+  </entry>
+  <entry producer="producer67" in="00:00:00.000" out="00:00:01.350">
+   <property name="kdenlive:id">69</property>
+  </entry>
+  <entry producer="producer91" in="00:00:00.000" out="00:00:10.100">
+   <property name="kdenlive:id">76</property>
+  </entry>
+  <entry producer="producer23" in="00:00:00.000" out="00:00:07.917">
+   <property name="kdenlive:id">26</property>
+  </entry>
+  <entry producer="producer17" in="00:00:00.000" out="00:00:07.167">
+   <property name="kdenlive:id">19</property>
+  </entry>
+  <blank length="00:00:00.050"/>
+  <entry producer="producer22" in="00:00:00.000" out="00:00:08.650">
+   <property name="kdenlive:id">21</property>
+   <filter id="filter6">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-585 -99 3456 1944 1.000000;00:00:00.617=-585 -99 3456 1944 1.000000;00:00:02.950=-1005 -96 3456 1944 1.000000;00:00:04.300=-571 -641 3456 1944 1.000000;00:00:06.783=-526 -804 3456 1944 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:00.617=0;00:00:02.950=0;00:00:04.300=0;00:00:06.783=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer26" in="00:00:00.000" out="00:00:18.083">
+   <property name="kdenlive:id">30</property>
+  </entry>
+  <entry producer="producer35" in="00:00:00.000" out="00:00:08.033">
+   <property name="kdenlive:id">36</property>
+   <filter id="filter7">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-1985 -92 6336 3564 1.000000;00:00:04.717=-1985 -92 6336 3564 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:04.717=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer21" in="00:00:00.000" out="00:00:04.283">
+   <property name="kdenlive:id">22</property>
+   <filter id="filter8">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-1002 -120 4320 2430 1.000000;00:00:04.283=-998 -1235 4320 2430 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:04.283=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer31" in="00:00:00.000" out="00:00:04.750">
+   <property name="kdenlive:id">29</property>
+   <filter id="filter9">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-4135 -78 10176 5724 1.000000;00:00:04.750=-4135 -4557 10176 5724 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:04.750=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer33" in="00:00:00.000" out="00:00:03.667">
+   <property name="kdenlive:id">35</property>
+   <filter id="filter10">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-1488 -85 4896 2754 1.000000;00:00:03.667=-1488 -1581 4896 2754 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:03.667=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <entry producer="producer31" in="00:00:00.000" out="00:00:19.583">
+   <property name="kdenlive:id">29</property>
+   <filter id="filter11">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-4416 -174 10752 6048 1.000000;00:00:09.883=-4416 -174 10752 6048 1.000000;00:00:11.833=-4416 -4809 10752 6048 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:09.883=0;00:00:11.833=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:00.233"/>
+  <entry producer="producer32" in="00:00:00.000" out="00:00:07.233">
+   <property name="kdenlive:id">34</property>
+  </entry>
+  <entry producer="producer37" in="00:00:00.000" out="00:00:02.950">
+   <property name="kdenlive:id">39</property>
+  </entry>
+  <entry producer="producer32" in="00:00:00.000" out="00:00:02.017">
+   <property name="kdenlive:id">34</property>
+  </entry>
+  <entry producer="producer18" in="00:00:00.000" out="00:00:02.600">
+   <property name="kdenlive:id">20</property>
+  </entry>
+  <entry producer="producer30" in="00:00:00.000" out="00:00:10.683">
+   <property name="kdenlive:id">33</property>
+  </entry>
+  <entry producer="producer36" in="00:00:00.000" out="00:00:06.717">
+   <property name="kdenlive:id">38</property>
+  </entry>
+  <entry producer="producer34" in="00:00:00.000" out="00:00:07.650">
+   <property name="kdenlive:id">37</property>
+  </entry>
+  <entry producer="producer20" in="00:00:00.000" out="00:00:10.317">
+   <property name="kdenlive:id">24</property>
+  </entry>
+  <entry producer="producer19" in="00:00:00.000" out="00:00:08.250">
+   <property name="kdenlive:id">23</property>
+  </entry>
+  <entry producer="producer15" in="00:00:00.000" out="00:00:04.983">
+   <property name="kdenlive:id">17</property>
+  </entry>
+ </playlist>
+ <playlist id="playlist5"/>
+ <tractor id="tractor2" in="00:00:00.000" out="00:03:36.083">
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist4"/>
+  <track hide="audio" producer="playlist5"/>
+ </tractor>
+ <playlist id="playlist6"/>
+ <playlist id="playlist7"/>
+ <tractor id="tractor3" in="00:00:00.000">
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist6"/>
+  <track hide="audio" producer="playlist7"/>
+ </tractor>
+ <tractor id="tractor4" in="00:00:00.000" out="00:11:56.100">
+  <track producer="black_track"/>
+  <track producer="tractor0"/>
+  <track producer="tractor1"/>
+  <track producer="tractor2"/>
+  <track producer="tractor3"/>
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <filter id="filter12">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="level">-3.77389</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter13">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter14">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+</mlt>

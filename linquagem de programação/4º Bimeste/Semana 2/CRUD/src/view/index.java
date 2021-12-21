@@ -344,12 +344,6 @@ public class index {
 
     btnUpdate.addActionListener(e -> {
       String result = "";
-      boolean isValidFields = true;
-      isValidFields = ValidateFields();
-      if (!isValidFields) {
-        JOptionPane.showMessageDialog(null, "Preencha todos os campos");
-        return;
-      }
       result = this.update();
       JOptionPane.showMessageDialog(null, result);
       clearFields();
